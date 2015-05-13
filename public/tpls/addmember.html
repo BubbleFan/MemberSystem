@@ -1,0 +1,24 @@
+<div class="header">UX人员管理系统--添加精英</div>
+<div class="wrap" ng-controller="AddmemberCtrl">
+	<form>
+		<ul>
+			
+			<li><strong>序列号：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoIndex"></li>
+			<li><strong>姓名：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoName"></li>
+			<li><strong>英文名：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoEnglishName"></li>
+			<li><strong>年龄：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoAge"></li>
+			<li><strong>性别：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoSex"></li>
+			<li><strong>工号：</strong></li>
+			<li><input type="text" placeholder="请输入" ng-model="memberInfoNumber"></li>
+			<li><strong>入职日期</strong></li>
+			<li><input type="text" placeholder="xxxx-xx-xx" ng-model="memberInfoInTime"></li>
+		</ul>
+		<a ng-disabled="form.$invalid" add>保存</a>
+	    <a ui-sref="memberList({memberType:0})">取消</a>
+    </form>
+</div>

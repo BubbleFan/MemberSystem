@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"index": {
+			"name": "index",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "index",
+			"order": 0
+		},
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 1
+		},
+		"EnglishName": {
+			"name": "EnglishName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "EnglishName",
+			"order": 2
+		},
+		"sex": {
+			"name": "sex",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "sex",
+			"order": 3
+		},
+		"age": {
+			"name": "age",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "age",
+			"order": 4
+		},
+		"number": {
+			"name": "number",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "number",
+			"order": 5
+		},
+		"inTime": {
+			"name": "inTime",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "inTime",
+			"order": 6
+		}
+	}
+}

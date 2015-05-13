@@ -1,0 +1,9 @@
+<div ng-controller="MemberListCtrl">
+	<div class="searchForm" style="position: relative;height:60px;line-height: 60px;">
+		<input type="text" ng-model="query" placeholder="输入人名以搜索">
+		<span class="search">搜索</span>
+		<span class="search add"><a ui-sref="addmember">添加</a></span>
+	</div>
+
+	<div class="gridStyle" ng-grid="gridOptions"></div>
+</div>
